@@ -1,0 +1,84 @@
+.container {
+  padding: 2rem;
+  margin: 2rem;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.title {
+  width: 100%;
+  margin: 2rem 0 5rem;
+  display: flex;
+  gap: 1rem;
+  align-items: center;
+  justify-content: center;
+  font-size: 4rem;
+  font-family: 'Poppins', sans-serif;
+}
+
+.alert {
+  width: 100%;
+  margin: 2rem 0;
+  display: flex;
+  justify-content: center;
+}
+.alert #message {
+  padding: 0.75rem 2rem;
+  border: none;
+  border-radius: 0.25rem;
+  background-color: #ddd;
+  color: #ee1515;
+  font-size: 1rem;
+  font-weight: bolder;
+  font-family: 'Poppins', sans-serif;
+  text-transform: lowercase;
+  text-align: center;
+  word-wrap: break-word;
+}
+
+.form {
+  max-width: 20rem;
+  display: flex;
+  gap: 2rem;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.element {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+  align-items: center;
+  justify-content: flex-end;
+}
+
+.label {
+  flex-grow: 0;
+  font-weight: bolder;
+}
+.input {
+  flex-grow: 1;
+  max-width: 100%;
+}
+
+.button {
+  width: 100%;
+  padding: 2rem 0;
+  display: flex;
+  justify-content: center;
+}
+
+.button > button {
+  padding: 0.5rem 2rem;
+  border: none;
+  border-radius: 0.5rem;
+  cursor: pointer;
+  color: black;
+  font-size: 2rem;
+  font-weight: bolder;
+  font-family: 'Poppins', sans-serif;
+}
+button:disabled {
+  color: #aaa;
+}
